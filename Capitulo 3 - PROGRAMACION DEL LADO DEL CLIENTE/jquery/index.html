@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY</title>
+    <script src="js/jquery-3.5.0.js" type="text/javascript"></script>
+    <script src="js/codigo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>NOMINA</h1>
+        <h2>Ingenieria de Sistemas</h2>
+    </header>
+    <form action="">
+        <label for="">Cedula:</label><input type="text" name="" id="txtCedula"><br>
+        <label for="">Nombre:</label><input type="text" name="" id="txtNombre"><br>
+        <label for="">Tipo:</label>
+        <select name="" id="txtTipo">
+            <option value="TC">Tiempo Completo</option>
+            <option value="MT">Medio Tiempo</option>
+            <option value="HC">Hora Catedra</option>
+        </select><br>
+        <label for="">Horas:</label><input type="text" name="" id="txtHoras"><br>
+        <label for="">Sueldo:</label><input type="text" name="" id="txtSueldo" readonly><br>
+        <input type="button" value="Calcular" id="btnCalcular">
+        <input type="button" value="Acerca de" id="btnAbout">
+
+    </form>
+    <div id="msg"></div>
+</body>
+</html>

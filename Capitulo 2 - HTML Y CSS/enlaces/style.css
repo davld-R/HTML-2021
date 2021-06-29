@@ -1,0 +1,19 @@
+a:link{
+    color: #00FF00;
+}
+a:visited{
+    color: rgb(255,0,0);
+}
+#primero{
+    background-color: rgba(255,0,0,0.5);
+}
+#primero:hover{
+    background-color: rgba(0,0,255,0.5);
+}
+#primero:active{
+    background-color: rgba(0,255,0,0.5);
+
+}
+a:hover{
+    color: seagreen;
+}

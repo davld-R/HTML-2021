@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+</head>
+<body>
+    <h1>Registrar Usuario</h1>
+    <form action="registrar.php" method="POST">
+        <p>ID: </p><input type="text" name="txtId" id="txtId" required><br>
+        <p>Nombre: </p><input type="text" name="txtName" id="txtName" required><br>        
+        <p>Contraseña: </p><input type="password" name="txtPassword" id="txtPassword" required><br>
+        <p>Gmail: </p><input type="text" name="txtEmail" id="txtEmail" required><br>
+        <p>Tipo de Usuario: </p><input type="text" name="txtType" id="txtType" required><br>
+        <p>Estado: </p><input type="text" name="txtState" id="txtState" required><br>
+        <input type="submit" value="Registrar"><br><br>
+        
+    </form>
+    <a href="panel.php">volver</a>
+</body>
+</html>

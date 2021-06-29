@@ -1,0 +1,28 @@
+body{
+    background-image: url("../img/construccion.jpg");
+    background-position-x: center;
+    background-attachment: fixed;/*ese fonde se matiene estatico*/
+    background-repeat: no-repeat;/*para que la imagen no se repita en el fondo*/
+    background-size: cover;/**/
+    height: 100%;
+}
+/*#div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 5px;
+    border: 10px solid blue;
+    margin: 10px;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}*/ 
+nav{
+    position: absolute;
+    top: 850px;/*cien pixeles hacia abajo*/
+    left: 770px;
+}
+
+

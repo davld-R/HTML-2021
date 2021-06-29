@@ -1,0 +1,15 @@
+img{
+    width: 300px;
+}
+#contenido{
+    text-align: center;
+}
+#imgCentro{
+    border: solid 20px orange;
+}
+body{
+    text-align: center;
+}
+table{
+    display: inline-block;
+}

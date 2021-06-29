@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    height: 100%;
+}
+header{
+     background-image: url("../img/3.jpg");
+     width: 100%;    
+ }
+nav{
+    background-image: url("../img/2.jpg");
+    border: solid 1px black;
+    padding: 12px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 259px;
+    width: 100%;
+}
+input{
+    color: white;
+    font-size: 22px;
+    background-color: black; 
+    
+}
+h1{
+    font-size: 85px;
+    color:yellow;
+    background-image: url("../img/3.jpg");
+    width: 1400px;
+    font-family: cursive;  
+    width: 100%;
+}
+div{    
+    display: inline;
+    top: 320px; 
+    left: 1px;
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+

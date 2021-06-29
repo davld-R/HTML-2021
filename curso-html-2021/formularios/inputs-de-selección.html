@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- 
+        radio -> Permite seleccionar una única opción de una lista de opciones relacionadas.
+
+        checkbox -> Permite seleccionar varias opciones de una lista de opciones relacionadas.
+
+        select -> Crea una lista de opciones donde podemos seleccionar una o varias opciones.
+
+        Cada opción irá dentro de una etiqueta <option> </option>
+
+        Si tenemos muchas opciones podemos ordenarlas por categorias a través de la etiqueta <optgroup> con el atributo label para nombrar la categoria
+     -->
+
+<body>
+    <h1>Elementos seleccionales</h1>
+    <form>
+        <!-- *** Tipo Radio Button *** 
+        <h2>Género</h2>
+        <label>Masculino
+            <input type="radio" name="gender" value="masculino" checked>
+        </label>
+        <label>Femenino
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label>Desconocido
+            <input type="radio" name="gender" value="desconocido">
+        </label> -->
+
+        <!--  *** Input de tipo CHECKBOX ***
+        <h2>Lenguajes que conoces</h2>
+        <label>
+            HTML
+            <input type="checkbox" name="languages" value="html" checked>
+        </label>
+        <label>
+            CSS
+            <input type="checkbox" name="languages" value="css">
+        </label>
+        <label>
+            JavaScript
+            <input type="checkbox" name="languages" value="javascript">
+        </label> -->
+
+        <!-- *** Input de tipo select *** 
+            <select name="lenguajes" multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+        </select> -->
+        <!-- <select name="mascotas">
+            <optgroup label="4 patas">
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="hamster">Hamster</option>
+                <option value="conejo">Conejo</option>
+            </optgroup>
+            <optgroup label="aves">
+                <option value="loro">Loro</option>
+                <option value="canario">Canario</option>
+            </optgroup>
+            <optgroup label="otras">
+                <option value="serpiente">Serpiente</option>
+                <option value="tarantula">Tarántula</option>
+            </optgroup>
+        </select> -->
+
+        <input type="list" list="pets">
+        <datalist id="pets">
+            <option value="dog">Perro</option>
+            <option value="gato"></option>
+            <option value="hamster"></option>
+            <option value="conejo"></option>
+            <option value="loro"></option>
+            <option value="canario"></option>
+            <option value="serpiente"></option>
+            <option value="tarantula"></option>
+        </datalist>
+
+    </form>
+
+</body>
+
+</html>

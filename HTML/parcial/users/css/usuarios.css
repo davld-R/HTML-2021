@@ -1,0 +1,41 @@
+#main{
+    width: 100%;
+    display: inline-flex;
+}
+#menu{
+    width: 15%;
+    border: solid 1px black;
+}
+#articulo{
+    width: 81%;
+    border: solid 1px black;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.btnArticulo{
+    width: 100%;
+}
+body{
+    font-family: "arial";   
+    background-image: url("../img/1.jpg");     
+    background-size: cover; 
+}
+h3{
+    color: black;
+    text-align: center;
+}
+a{
+    background-color: #F4ECEC;
+    color: black;
+    margin: 20px;   
+    font-size: 13pt;
+    padding: 7px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+p{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7); 
+}

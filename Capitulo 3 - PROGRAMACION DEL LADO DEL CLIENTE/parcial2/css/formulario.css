@@ -1,0 +1,46 @@
+form{
+    display: inline-block;
+    background-color:  #A9E2F3 ;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color:  #5882FA;
+    border-radius: 10px;
+    padding: 5px;
+}
+input[type="text"],input[type="date"],input[type="password"]{
+    height: 40px;
+    background-color: #CEF6F5;
+    width: 300px;
+    font-size: 18pt;
+    color: black;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+input[type="text"]:focus,input[type="date"],input[type="password"]:focus{
+    background-color: #F8FBEF;
+    color: #000000;
+}
+#btnRegistrar{
+    font-size: 18pt;
+    padding: 5px;
+    width: 80%;
+    background-color: #E0F8F7;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+#btnVer{
+    font-size: 18pt;
+    padding: 5px;
+    width: 80%;
+    background-color: #E0F8F7;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}

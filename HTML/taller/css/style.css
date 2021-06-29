@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    font-family: "arial";        
+}
+h1{
+    padding: 14%;
+    background-image: url("../img/1.png");
+    background-size: cover; 
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.7); 
+}
+a{
+    background-color: #F4ECEC;
+    color: black;
+    margin: 2px;   
+    font-size: 13pt;
+    padding: 7px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 10px; 
+}

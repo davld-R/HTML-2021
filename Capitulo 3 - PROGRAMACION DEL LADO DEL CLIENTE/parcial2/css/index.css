@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: fantasy;
+}
+header{
+    background-image: url("../img/7.png");
+    width: 100%;
+    color: #000000;
+    height: 350px;
+    background-size: cover;
+}
+#titulo{
+    display: inline-block;
+    font-size: 80pt;
+    position: relative;
+    top: 70px;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.menu{
+    display: inline-block;
+    text-decoration: none;
+    background-color:  #81BEF7 ;
+    color: black;
+    font-size: 24pt;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    width: 300px;
+}
+.menu:hover{
+    background-color:  #08088A;
+    padding: 8px;
+    font-size: 22pt;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+}
+nav{
+    margin-top: 30px;
+}

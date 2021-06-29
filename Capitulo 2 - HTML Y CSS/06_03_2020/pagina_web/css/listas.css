@@ -1,0 +1,45 @@
+body{
+    background-color: tomato;
+    color:beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: white;
+    opacity: 0.7;
+    color: black;
+    text-align: center;
+}
+article{
+    box-shadow: 5px 5px rgba(0,0,0,0.4);/*Caja de sombra de color negro de 5px*/
+    border: solid 1px beige;
+    border-radius: 25px;
+}
+article:hover{
+    background-color: beige;
+    color: tomato;
+}
+h2{
+    text-align: center;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.4);/*2px en X 2px en Y*/
+}
+ul{
+    display: inline-block;
+}
+ol{
+    display: inline-block;
+}
+img{
+    height: 120px;
+    text-align: center;
+}
+div{
+    width: 77%;
+    display: inline-block;/*Para que nos quede el uno al otro*/
+    text-align: center;
+}
+a{
+    color: black;
+}
+div2{
+    
+}

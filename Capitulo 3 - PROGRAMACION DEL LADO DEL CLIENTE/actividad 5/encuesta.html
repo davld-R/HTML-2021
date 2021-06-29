@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <script src="js/jquery-3.5.0.js" type="text/javascript"></script>
+    <script src="js/encuesta.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/encuesta.css">
+</head>
+<body>
+    <section id="pregunta">
+        <p>¿Pregunta?</p>
+        <input type="radio" name="opc" id="opc1" value="a" checked>Opcion 1<br>
+        <input type="radio" name="opc" id="opc2" value="b">Opcion 2<br>
+        <input type="radio" name="opc" id="opc3" value="c">Opcion 3<br>
+        <input type="radio" name="opc" id="opc4" value="d">Opcion 4<br>
+        <input type="button" value="Votar" id="btnVotar">
+    </section>
+    <section id="estadisticas">
+        <table border="1">
+            <tr>
+                <td><h2>Estadisticas</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td><p id="eOpc1"></p></td>
+                            <td class="bar"><div id="bOpc1"></div></td>
+                            <td><p id="pOpc1"></p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="eOpc2"></p></td>
+                            <td class="bar"><div id="bOpc2"></div></td>
+                            <td><p id="pOpc2"></p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="eOpc3"></p></td>
+                            <td class="bar"><div id="bOpc3"></div></td>
+                            <td><p id="pOpc3"></p></td>
+                        </tr>
+                        <tr>
+                            <td><p id="eOpc4"></p></td>
+                            <td class="bar"><div id="bOpc4"></div></td>
+                            <td><p id="pOpc4"></p></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td id="total"></td>
+            </tr>
+        </table>
+        <input type="button" value="volver" id="btnBack">
+    </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="js/jquery-3.5.0.js" type="text/javascript"></script>
+    <script src="js/jquery.validate.js" type="text/javascript"></script>
+    <script src="js/tooltipster.bundle.js" type="text/javascript"></script>
+    <script src="js/codigo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="stylesheet" href="css/formulario.css" type="text/css">
+    <link rel="stylesheet" href="css/tooltipster.bundle.min.css" type="text/css">
+    <link rel="stylesheet" href="css/tooltipster-sideTip-borderless.min.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Registro</h1>
+    </header>
+    <form id="Cliente" autocomplete="off">
+        <table>
+            <tr>
+                <td class="icon"><img src="img/1.png" alt="" width="100%"></td>
+                <td><input type="text" name="txtNombre" id="txtNombre"></td>
+            </tr>
+            <tr>
+                <td class="icon"><img src="img/2.png" alt="" width="100%"></td>
+                <td><input type="text" name="txtEmail" id="txtEmail"></td>
+            </tr>
+            <tr>
+                <td class="icon"><img src="img/3.png" alt="" width="100%"></td>
+                <td><input type="password" name="txtContraseña" id="txtContraseña"></td>
+            </tr>
+            <tr>
+                <td class="icon"><img src="img/3.png" alt="" width="100%"></td>
+                <td><input type="password" name="txtContraseña2" id="txtContraseña2"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Registrar" id="btnRegistrar">
+        <input type="submit" value="Ver Usuarios" id="btnVer">
+    </form> 
+     
+      <div class="col-sm-6">
+          <div id="tabla"></div>
+          <table class="table">
+              <thead>
+                <tr>
+                    <td>Nombre de usuario</td><td><button id="boton"><img src="img/4.png" alt="" class="icon" width="100%"></button></td><td> <button><img src="img/5.png" alt="" class="icon" width="100%"></button></td>
+                </tr>
+               
+              </thead>
+              <tbody id="cuerpo">
+
+              </tbody>              
+          </table>
+        
+      </div>
+    
+    
+</body>
+</html>

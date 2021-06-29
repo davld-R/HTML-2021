@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+input[type="button"]{
+    width: 35px;
+    height: 35px;
+}
+table{
+    display: inline-flex;
+    background-color: gainsboro;
+}
+#display{
+    text-align: right;
+}

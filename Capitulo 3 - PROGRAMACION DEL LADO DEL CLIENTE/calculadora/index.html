@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="js/codigo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <article>
+    <h1>Calculadora</h1>
+    <input type="text" name="" id="display" readonly><br><br>
+    <table>        
+        <tr>
+            <td><input type="button" value="7" onclick="siete()"></td>
+            <td><input type="button" value="8" onclick="ocho()"></td>
+            <td><input type="button" value="9" onclick="nueve()"></td>
+            <td><input type="button" value="+" onclick="suma()"></td>
+            <td><input type="button" value="C" onclick="borrar()"></td>
+            <td><input type="button" value="CE" onclick="limpiar()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="cuatro()"></td>
+            <td><input type="button" value="5" onclick="cinco()"></td>
+            <td><input type="button" value="6" onclick="seis()"></td>
+            <td><input type="button" value="-" onclick="resta()"></td>
+            <td><input type="button" value="^" onclick="exponenciacion()"></td>
+            <td><input type="button" value="√" onclick="raiz()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="uno()"></td>
+            <td><input type="button" value="2" onclick="dos()"></td>
+            <td><input type="button" value="3" onclick="tres()"></td>
+            <td><input type="button" value="*" onclick="multiplicacion()"></td>
+            <td><input type="button" value="x!" onclick="factorial()"></td>
+            <td><input type="button" value="Sen" onclick="sen()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" onclick="cero()"></td>
+            <td><input type="button" value="." onclick="punto()"></td>
+            <td><input type="button" value="=" onclick="igual()"></td>
+            <td><input type="button" value="/" onclick="division()"></td>
+            <td><input type="button" value="Cos" onclick="cos()"></td>
+            <td><input type="button" value="Tan" onclick="tan()"></td>
+        </tr>
+    </table>   
+    </article>
+</body>
+</html>

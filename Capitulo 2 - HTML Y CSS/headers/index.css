@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-size: 15px;
+    color: red;
+    background-color: gray;
+    width: 50%;
+    font-family: sans-serif;
+}
+h2{
+    color: yellow;
+    text-align: right;
+}
+h3{
+    color: green;
+}
+h4{
+    color: hotpink;
+}
+h5{
+    color: aqua;
+}
+h6{
+    color: blue;
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: "arial";
+    font-size: 14pt;
+}
+td{
+    border: solid 3px navy;
+}
+#title{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    font-size: 22pt;
+}
+#num1,#num2{
+    width: 500px;
+    height: 100px;
+    text-align: right;
+}
+label{
+    font-size: 16pt;
+    font-style: oblique;
+}
+#txtResultado{
+    width: 500px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: azure;
+    text-align: right;
+    padding: 10px;
+    font-size: 16pt;
+}
+#menu{
+    text-align: center;
+}
+.estrella{
+    width: 70px;
+}
+#msg,#bkg{
+    display: none;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;    
+    text-align: center;
+}
+#bkg{
+    background-color: navy;
+    opacity: 0.8;
+    z-index: 0;
+}
+#msg{
+    z-index: 1;
+}
+.cara{
+    height: 50%;
+}

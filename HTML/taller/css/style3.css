@@ -1,0 +1,23 @@
+body{    
+    font-family: "arial"; 
+    background-image: url("../img/3.jpg");
+    text-align: center;       
+}
+a{
+    color: black;
+    background-color: #CEDBE9;
+    font-size: 15pt;
+    padding: 5px;
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+form{
+    display: inline-block;
+    background-color:  #D0E0F2 ;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    border-radius: 10px;
+    text-align: center;
+}

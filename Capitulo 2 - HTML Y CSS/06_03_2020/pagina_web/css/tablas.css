@@ -1,0 +1,66 @@
+h1, h2{
+    text-align: center;
+}
+body{
+    background-image: url("../img/img16.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: black;
+    text-align: center;
+    width: 15%;
+    display: inline-block;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+}
+header{
+    background-color: whitesmoke;
+    text-align: center;
+}
+td{
+    background-color: yellow;
+    font-size: 20px;
+}
+th{
+    background-color: yellow;
+}
+table{
+    text-align: left;
+    color: black;
+    background-color: white;
+    
+}
+article{
+    box-shadow: 3px 3px darkorange;
+    border: solid 3px yellow;
+    border-radius: 30px;
+    width: 40%; 
+ 
+}
+article:hover{
+    background-color: darkblue;
+    color: yellow;
+}
+div{
+    width: 80%;
+    display: inline-block;
+    text-align: left;
+}
+h3{
+    text-align: right;
+   
+}
+a{
+    color: white;
+       
+}
+h4{
+    text-align: center;
+}
+

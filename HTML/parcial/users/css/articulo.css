@@ -1,0 +1,9 @@
+.comments{
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+.titleComment{
+    text-align: center;
+}

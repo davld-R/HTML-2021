@@ -1,0 +1,34 @@
+#div1{
+    background-color: blue;
+    width: 100px;
+}
+#div2{
+    background-color: green;
+    width: 10cm;
+}
+#div3{
+    background-color: red;
+    width: 10in;
+}
+#div4{
+    font-size: 20px;
+}
+#div5{
+    background-color: blue;
+    width: 2em;
+}
+#div6{
+    background-color: green;
+    font-size: 15px;
+    width: 2em;
+}
+html{
+    font-size: 5px;
+}
+#div7{
+    font-size: 30px;
+}
+#div8{
+    background-color: red;
+    width: 5rem;
+}

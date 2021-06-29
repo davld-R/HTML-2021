@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Embebido</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<!-- 
+    DPR (Device Pixel Ratio)
+        Es la relación que existe entre los píxeles reales que tiene el dispositivo y los píxeles que tenemos disponibles para "pintar" contenido
+
+    DPR = Píxeles reales / píxeles disponibles
+ -->
+
+<body>
+    <h1>Contenido embedido</h1>
+
+    <!-- 
+    *** TRABAJANDO CON LA ETIQUETA FIGURE***
+    -->
+
+    <h2>Gatos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, autem ratione magni quibusdam quae cum illum
+        sed consequuntur! Vel totam quae voluptatum praesentium fuga consequuntur est doloribus nam, nulla fugit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis incidunt architecto illum, optio est quisquam
+        magnam quod debitis. Est blanditiis quo recusandae exercitationem laborum animi pariatur adipisci veniam
+        ratione. Inventore!</p>
+    <figure>
+        <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg"
+            alt="gato">
+        <figcaption>Gato Común</figcaption>
+    </figure>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eum voluptatibus. Fugit ratione voluptate
+        labore voluptas temporibus nemo unde veritatis architecto, cum necessitatibus maxime, iure saepe, magni
+        consequatur eligendi laborum!</p>
+
+    <!-- 
+    *** TRABAJANDO CON IFRAME, IMPORTAR VIDEOS***
+    -->
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/e5x0b8Za83U" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe> -->
+
+    <!-- 
+    *** TRABAJANDO SOLO VIDEO ***
+    -->
+
+    <!-- <video src="/contenido-embebido/assets/video/1291_1.mp4" controls muted loop poster="/contenido-embebido/assets/images/paisaje.jpg"></video> -->
+
+    <!-- 
+    *** TRABAJANDO SOLO AUDIO ***
+    -->
+
+    <!-- <audio src="/contenido-embebido/assets/audio/Go.mp3" controls autoplay muted></audio> -->
+
+    <!-- 
+    *** TRABAJANDO SOLO IMAGENES ***
+    -->
+
+    <!-- 
+    *** Picture nos da los mismo de srcset pero hay algunos navegadores que no lo soportan ***
+    -->
+
+    <!-- <picture>
+        <source srcset="/contenido-embebido/assets/images/paisaje.jpg" media="(max-width:1000px)">
+        <img src="/contenido-embebido/assets/images/facebook.svg" alt="">
+    </picture> -->
+
+    <!-- 
+        *** Sirve para establecer condiciones que una imagen en celular y en pc salga diferente segun el zoom que tenga *** 
+    -->
+
+    <!-- <img srcset="
+    /contenido-embebido/assets/images/paisaje.jpg,
+    /contenido-embebido/assets/images/paisaje.webp,
+    /contenido-embebido/assets/images/cat.gif 3x" src="/contenido-embebido/assets/images/paisaje.jpg" alt="Imagen de portada"> -->
+
+    <!-- 
+        *** Llamar así a un svg para solo cambiarle el tamaño *** 
+    -->
+
+    <!-- <img src="/contenido-embebido/assets/images/facebook.svg" alt="logo de facebook">  -->
+
+    <!-- 
+        *** Llamar así a un svg para cambiar toda la imagen con el código *** 
+    -->
+
+    <!-- <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg> -->
+</body>
+
+</html>

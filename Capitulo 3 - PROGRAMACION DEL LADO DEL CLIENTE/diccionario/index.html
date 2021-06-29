@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario</title>
+    <script src="js/codigo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/botones.css">
+</head>
+<body>
+    <header>
+        <h1>Diccionario</h1>
+    </header>
+    <section>
+        <article>
+            <table>
+                <tr>
+                    <td>Español: </td><td><input type="text" name="" id="espanol"></td>
+                </tr>
+                <tr>
+                    <td>Ingles: </td><td><input type="text" name="" id="ingles"></td>
+                </tr>
+            </table>
+            <input type="button" value="agregar" onclick="addPalabra()" class="button">
+        </article>
+        <article>
+            Palabra: <input type="text" name="" id="palabra"><br>
+            <input type="button" value="traducir" onclick="traducir()" class="button">
+            <div id="traduccion"></div>
+        </article>
+        <article>
+            <textarea name="" id="texto" cols="30" rows="5"></textarea><br>
+            <input type="button" value="traducir" onclick="traducirTexto()" class="button">
+            <div id="traduccionTexto"></div>
+        </article>
+    </section>
+</body>
+</html>
